@@ -19,4 +19,4 @@ def account():
     return render_template("account.html", posts = posts, title="Student Account")
 
 if __name__ == "__main__":
-    app.run(host="localhost", port=int("777"), debug=True)
+    app.run(host="localhost", port=int("5000"), debug=True)
