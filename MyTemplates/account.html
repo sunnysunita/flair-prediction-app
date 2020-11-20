@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+    <title>College-{{title}}</title>>
+    {% else %}
+    <title>College</title>>
+    {% endif %}
+
+</head>
+<body>
+<h1>Your account is here!!!</h1>>
+{% for post in posts %}
+<h2>Name: {{post.name}}</h2>
+<h3>Roll No: {{post.roll}}</h3>
+<h3>Semester: {{post.semester}}</h3>
+{% endfor %}
+</body>
+</html>
